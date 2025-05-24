@@ -1,0 +1,33 @@
+name: buysimply_candidate_task
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima_nova/Fontspring-DEMO-proximanova-regular.otf
+        - asset: assets/fonts/proxima_nova/Fontspring-DEMO-proximanova-bold.otf
+          weight: 700
+        - asset: assets/fonts/proxima_nova/Fontspring-DEMO-proximanova-light.otf
+          weight: 300
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/svg/
+    - assets/fonts/
